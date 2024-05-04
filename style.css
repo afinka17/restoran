@@ -7,7 +7,7 @@ body {
     margin: 0px 166px;
 }
 
-.header {
+body > .header {
     background-image: url(bg.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
     width: 61px;
     background-color: #fff;
     top: 127px;
-    left: 308px;
+    left: 350px;
 }
 
 .header-button {
