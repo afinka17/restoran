@@ -143,12 +143,17 @@ body > .header {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-
+    margin-bottom: 30px;
     transition: background-color 0.3s linear;
+    box-shadow: 0 0 5px #FF7400, 0 0 25px #FF7400;
 }
 
 .header-button:hover {
     background-color: #904506;
+    box-shadow: 0 0 5px #FF7400,
+        0 0 25px #FF7400, 0 0 50px #FF7400,
+        0 0 100px #FF7400, 0 0 200px #FF7400;
+    
 }
 
 
@@ -248,6 +253,7 @@ body > .header {
 
 .history-images {
     position: relative;
+    
 }
 
 .history-holder {
@@ -258,21 +264,21 @@ body > .header {
     position: absolute;
     z-index: 0;
     top: 54px;
-    left: 211px;
+    left: 141px;
 }
 
 .imgages-2 {
     position: absolute;
     z-index: 999;
     top: -92px;
-    left: 383px;
+    left: 343px;
 }
 
 .imgages-3 {
     position: absolute;
-    z-index: 999;
-    top: 246px;
-    left: 481px;
+    z-index: 599;
+    top: 206px;
+    left: 281px;
 }
 
 
@@ -283,6 +289,7 @@ body > .header {
     padding: 80px 0;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px;
 }
 
 .left-title {
@@ -306,6 +313,16 @@ body > .header {
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 700;
+    box-shadow: 0 0 5px #FF7400, 0 0 25px #FF7400;
+
+}
+
+.right-btn:hover {
+    background-color: #904506;
+    box-shadow: 0 0 5px #FF7400,
+        0 0 25px #FF7400, 0 0 50px #FF7400,
+        0 0 100px #FF7400, 0 0 200px #FF7400;
+    
 }
 
 .block-holder {
@@ -779,7 +796,6 @@ button {
 }
 body {
         font-family: Arial, sans-serif;
-        margin: 0% 5%;
         padding: 0;
         background-color: #f0f0f0;
     }
