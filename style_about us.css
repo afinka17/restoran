@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(bg.jpg)
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+	flex-wrap: nowrap;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300px;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.cart {
+    border-right: 1pz solid #FFFFFF;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+}
